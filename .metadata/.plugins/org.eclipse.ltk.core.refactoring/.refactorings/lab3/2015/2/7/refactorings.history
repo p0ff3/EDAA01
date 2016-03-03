@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename field &apos;SideList&apos; in &apos;mountain.FixedMountain&apos; to &apos;sideList&apos;&#x0D;&#x0A;- Original project: &apos;lab3&apos;&#x0D;&#x0A;- Original element: &apos;mountain.FixedMountain.SideList&apos;&#x0D;&#x0A;- Renamed element: &apos;mountain.FixedMountain.sideList&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;SideList&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;mountain{FixedMountain.java[FixedMountain^SideList" name="sideList" references="true" setter="false" stamp="1423573199725" textual="false" version="1.0"/>
-</session>
