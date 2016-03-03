@@ -1,0 +1,17 @@
+package sudokuSolver;
+import javax.swing.*;
+import java.awt.*;
+
+public class DrawingPanel extends JPanel {
+	SudokuGUI view;
+
+	public DrawingPanel(SudokuGUI view) {
+		this.view = view;
+		setBorder(BorderFactory.createLineBorder(Color.black));
+	}
+
+	public Dimension getPreferredSize() {
+		return new Dimension(600,600);
+	}
+
+}

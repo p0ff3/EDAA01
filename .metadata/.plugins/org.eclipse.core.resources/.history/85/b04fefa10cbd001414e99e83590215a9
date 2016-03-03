@@ -1,0 +1,26 @@
+package sudokuSolver;
+
+import javax.swing.*;
+
+import java.awt.event.*;
+
+public class ClearButton extends JButton implements ActionListener {
+	private SudokuGUI view;
+	/**
+	 * Skapar en Clear-knapp i GUIt view
+	 * @param view - GUIt som knappen ska skapas i.
+	 */
+	public ClearButton(SudokuGUI view) {
+		super("Clear");
+		this.view = view;
+		addActionListener(this);
+		this.setToolTipText("…kar fraktalens ordning.");
+	}
+	/**
+	 * Anropar clear() för att rensa fönstret
+	 */
+	public void actionPerformed(ActionEvent e) {
+		view.clear();
+	}
+
+}

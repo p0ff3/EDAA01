@@ -1,0 +1,31 @@
+package SudokuSolver;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+public class SudokuGUI {
+	public SudokuGUI() {
+		JFrame frame = new JFrame("A Frame with Two Panels");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		/**
+		 * Skapar ett GUI med en textruta som bara kan inehålla en siffra
+		 */
+
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JTextField field = new OneLetterField();
+		add(field);
+
+		pack();
+		setVisible(true);
+
+		JPanel southPanel = new JPanel();
+		southPanel.add(new JButton("three"));
+		southPanel.add(new JButton("four"));
+		frame.add(southPanel, BorderLayout.SOUTH);
+		frame.pack();
+		frame.setVisible(true);
+	}
+}

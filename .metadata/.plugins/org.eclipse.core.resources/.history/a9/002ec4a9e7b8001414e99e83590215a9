@@ -1,0 +1,38 @@
+package SudokuSolver;
+
+public class SudokuSolver {
+	int[][] matrix = new int[9][9];
+
+	public SudokuSolver(int[][] i) {
+		matrix = i;
+		// Shit here later on
+	}
+
+	public boolean solve(int x, int y) {
+		return false;
+	}
+
+	private int getValue(int x, int y) {
+		return 0;
+	}
+
+	private boolean squareContains(int x, int y) {
+		return false;
+	}
+
+	private boolean rowContains(int value, int y) {
+		return false;
+	}
+
+	private boolean columnContains(int value, int x) {
+		for(int i : matrix[x]){
+			
+		}
+		return false;
+	}
+
+	private boolean isViable(int value, int x, int y) {
+		return false;
+	}
+
+}

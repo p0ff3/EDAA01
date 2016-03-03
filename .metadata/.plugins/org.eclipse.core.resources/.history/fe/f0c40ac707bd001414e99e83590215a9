@@ -1,0 +1,27 @@
+package sudokuSolver;
+
+import javax.swing.*;
+
+import java.awt.event.*;
+
+public class ClearButton extends JButton implements ActionListener {
+	private SudokuGUI view;
+
+	public ClearButton(SudokuGUI view) {
+		super("Clear");
+		this.view = view;
+		addActionListener(this);
+		this.setToolTipText("…kar fraktalens ordning.");
+	}
+
+	public void actionPerformed(ActionEvent e) {
+
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				drawingPanel.fields[i][j].setText(((Integer) 0)
+						.toString());
+			}
+		}
+	}
+
+}

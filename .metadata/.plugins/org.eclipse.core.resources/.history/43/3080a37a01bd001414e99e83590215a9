@@ -1,0 +1,79 @@
+package sudokuSolver;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+public class SudokuGUI extends JFrame {
+	private DrawingPanel drawingPanel = new DrawingPanel(this);
+
+	public SudokuGUI() {
+		super("");
+
+		CommandPanel commandPanel = new CommandPanel(this);
+		// DrawingPanel drawingPanel = new DrawingPanel(this);
+
+		super.add(commandPanel, BorderLayout.SOUTH);
+		super.add(drawingPanel, BorderLayout.CENTER);
+
+		JButton SolveButton = new SolveButton(this);
+		JButton ClearButton = new ClearButton(this);
+
+		SudokuSolver sud = new SudokuSolver(getBoard());
+		sud.solve();
+		// commandPanel.add(ClearButton);
+		// commandPanel.add(SolveButton);
+
+		pack();
+		setVisible(true);
+
+		// SouthPanel.add(new JButton("FAAAK1"));
+		// SouthPanel.add(new JButton("W000T"));
+		/*
+		 * JFrame frame = new JFrame("A Frame with Two Panels");
+		 * frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		 * frame.getPreferredSize();
+		 * 
+		 * 
+		 * 
+		 * JFrame aWindow = new JFrame("This is a Grid Layout");
+		 * 
+		 * aWindow.setBounds(30, 30, 300, 300);
+		 * aWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); GridLayout
+		 * grid = new GridLayout(9, 9, 30, 20); Container content =
+		 * aWindow.getContentPane(); content.setLayout(grid); OneLetterField
+		 * button = null; for (int i = 1; i <= 9*9; i++) { content.add(button =
+		 * new OneLetterField()); button.setPreferredSize( new Dimension( 20, 24
+		 * ) ); } Container content2 = aWindow.getContentPane();
+		 * content2.add(new JButton("three")); content2.add(new
+		 * JButton("four")); //frame.pack(); content2.setVisible(true);
+		 * aWindow.pack();
+		 */
+	}
+
+	private JButton ClearButton(SudokuGUI sudokuGUI) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Dimension getPreferredSize() {
+		return new Dimension(600, 600);
+	}
+
+	private int[][] getBoard() {
+		int[][] board = new int[9][9];
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if (drawingPanel.fields[i][j].getText() == "") {
+					drawingPanel.fields[i][j].setText("0");
+				}
+
+				board[i][j] = Integer.parseInt(drawingPanel.fields[i][j]
+						.getText());
+
+			}
+		}
+		return board;
+	}
+}

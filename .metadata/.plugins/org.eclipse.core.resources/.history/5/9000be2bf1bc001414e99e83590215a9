@@ -1,0 +1,52 @@
+package SudokuSolver;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+public class SudokuGUI extends JFrame{
+	public SudokuGUI() {
+		super("");
+		
+		JPanel commandPanel = new JPanel();
+		JPanel drawingPanel = new JPanel();
+		
+		super.add(commandPanel, BorderLayout.SOUTH);
+		super.add(drawingPanel, BorderLayout.CENTER);
+		
+		this.pack();
+		
+		//SouthPanel.add(new JButton("FAAAK1"));
+		//SouthPanel.add(new JButton("W000T"));
+		/*
+		JFrame frame = new JFrame("A Frame with Two Panels");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getPreferredSize();
+		
+		
+		
+		JFrame aWindow = new JFrame("This is a Grid Layout");
+		
+	    aWindow.setBounds(30, 30, 300, 300);
+	    aWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    GridLayout grid = new GridLayout(9, 9, 30, 20);
+	    Container content = aWindow.getContentPane(); 
+	    content.setLayout(grid); 
+	    OneLetterField button = null;
+	    for (int i = 1; i <= 9*9; i++) {
+	      content.add(button = new OneLetterField());
+	      button.setPreferredSize( new Dimension( 20, 24 ) );
+	    }
+	    Container content2 = aWindow.getContentPane(); 
+	    content2.add(new JButton("three"));
+	    content2.add(new JButton("four"));
+		//frame.pack();
+	    content2.setVisible(true);
+	    aWindow.pack();
+	    */
+	}
+	@Override
+	public Dimension getPreferredSize(){
+		return new Dimension(800,800);
+	}
+}

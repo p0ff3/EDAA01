@@ -1,0 +1,20 @@
+package sudokuSolver;
+import javax.swing.*;
+
+import java.awt.event.*;
+
+public class ClearButton extends JButton implements ActionListener {
+	private SudokuGUI view;
+
+	public ClearButton(SudokuGUI view) {
+		super("0=====8");
+		this.view = view;
+		addActionListener(this);
+		this.setToolTipText("…kar fraktalens ordning.");
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+
+}

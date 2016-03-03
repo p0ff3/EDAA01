@@ -1,0 +1,28 @@
+package SudokuSolver;
+
+public class SudokuSolver {
+	int[][] matrix = new int[9][9];
+	public SudokuSolver(int[][] i){
+		matrix = i;
+		//Shit here later on
+	}
+	
+
+	public boolean solve(int x, int y){
+		return false;
+	}
+	
+	private int getValue(int x, int y){
+		return 0;
+	}
+	private boolean squareContains(int x, int y){
+		return false; 
+	}
+	private boolean rowContains(int x, int y){
+		return false; 
+	}
+	private boolean columnContains(int x, int y){
+		return false; 
+	}
+
+}

@@ -1,0 +1,8 @@
+package SudokuSolver;
+
+public class SudokuSolver {
+	public SudokuSolver(){
+		//Shit here later on
+	}
+
+}

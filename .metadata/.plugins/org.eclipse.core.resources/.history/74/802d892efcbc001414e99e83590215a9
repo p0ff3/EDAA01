@@ -1,0 +1,38 @@
+package sudokuSolver;
+import javax.swing.*;
+
+import java.awt.*;
+
+public class DrawingPanel extends JPanel {
+	SudokuGUI view;
+
+	public DrawingPanel(SudokuGUI view) {
+		this.view = view;
+		setBorder(BorderFactory.createLineBorder(Color.black));
+		GridLayout grid = new GridLayout(9, 9, 10, 10);
+		setLayout(grid);
+		OneLetterField field = new OneLetterField();
+		OneLetterField[][] fields = new OneLetterField[9][9];
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if((i < 3 || i > 5) && (j < 3 || j > 5)){
+					field = new OneLetterField(new Color(155, 155, 0));
+				}
+				if(i > 3 && i < 6 && j > 3 && j < 6){
+					field = new OneLetterField(new Color(254, 155, 0));
+				}
+				else{
+					field = new OneLetterField();
+				}
+				fields[i][j] = field;
+				add(field);
+			}
+		}
+
+	}
+
+	public Dimension getPreferredSize() {
+		return new Dimension(600,600);
+	}
+
+}

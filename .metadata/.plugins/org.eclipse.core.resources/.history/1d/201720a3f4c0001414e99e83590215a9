@@ -1,0 +1,31 @@
+package sudokuSolver;
+
+import javax.swing.*;
+
+import java.awt.event.*;
+
+public class SolveButton extends JButton implements ActionListener {
+	private SudokuGUI view;
+	/**
+	 * Skapar en knapp.
+	 * @param view GUIt som den ska existera i
+	 */
+	public SolveButton(SudokuGUI view) {
+		super("Solve");
+		this.view = view;
+		addActionListener(this);
+	}
+	/**
+	 * Löser sudokut och anropar metoder för att skriva ut det igen.
+	 */
+	public void actionPerformed(ActionEvent e) {
+		Sudoku s = new Sudoku(si.getBoard());
+		si.getBoard();
+		if(s.checkIfValidBoard() ){ 
+		//s.getSolvedBoard();	
+		si.setBoard(s.getSolvedBoard());				
+		}else{
+			JOptionPane.showMessageDialog(null, "Sudokut går ej att lösa", "Varning", JOptionPane.ERROR_MESSAGE);
+		}
+	}
+}

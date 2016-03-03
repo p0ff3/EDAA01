@@ -1,0 +1,62 @@
+package SudokuSolver;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+public class SudokuGUI extends JFrame{
+	public SudokuGUI() {
+		/*JFrame frame = new JFrame("A Frame with Two Panels");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getPreferredSize();
+
+		
+		JPanel northPanel = new JPanel();
+		northPanel.setLayout(new GridLayout(9,9));
+		//JFrame.setDefaultLookAndFeelDecorated(true);
+		frame.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		northPanel.add(new OneLetterField());
+		
+		frame.pack();
+		frame.add(northPanel, BorderLayout.NORTH);
+		
+		
+		JPanel southPanel = new JPanel();
+		southPanel.add(new JButton("three"));
+		southPanel.add(new JButton("four"));
+		frame.add(southPanel, BorderLayout.SOUTH);
+		frame.pack();
+		frame.setVisible(true);*/
+		
+		JFrame aWindow = new JFrame("This is a Grid Layout");
+	    aWindow.setBounds(30, 30, 300, 300);
+	    aWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    GridLayout grid = new GridLayout(3, 4, 30, 20);
+	    Container content = aWindow.getContentPane(); 
+	    content.setLayout(grid); 
+	    JButton button = null;
+	    for (int i = 1; i <= 10; i++) {
+	      content.add(button = new JButton(" Press " + i));
+	    }
+	    aWindow.pack();
+	    aWindow.setVisible(true);
+	}
+	@Override
+	public Dimension getPreferredSize(){
+		return new Dimension(800,800);
+	}
+}

@@ -1,0 +1,9 @@
+package SudokuSolver;
+
+public class SudokuSolver {
+	int[][] matrix = new int[9][9];
+	public SudokuSolver(){
+		//Shit here later on
+	}
+
+}

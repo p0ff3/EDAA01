@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\SudokuSolver\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files (x86)\Java\jdk1.8.0_25\bin\javadoc.exe;/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\p0ff3\Desktop\newdog" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="ovn7">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn7\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn7\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn8">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn8\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn8\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn9">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn9\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn9\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SudokuSolver">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\SudokuSolver\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Desktop\newdog" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="banktest">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\banktest\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\banktest\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab3">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab3\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn11">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn11\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn11\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab4">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab4\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab4\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab1">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab2">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn3">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn3\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn4">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn4\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn4\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn5">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn5\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn5\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab5">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab5\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab5\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab6">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\lab6\javadoc.xml" key="antpath"/>
+				<item value="\Users\anna\kurser\pfk\edaa01-workspace\lab6\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn12">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn12\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn12\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ovn1">
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\p0ff3\Dropbox\edaa01-workspace\ovn1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1403528276990&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="1" key="rootMode"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-37" key="DIALOG_X_ORIGIN"/>
+			<item value="-31" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="566" key="DIALOG_HEIGHT"/>
+		<item value="51" key="DIALOG_Y_ORIGIN"/>
+		<item value="395" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>
